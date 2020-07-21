@@ -1,0 +1,53 @@
+body{
+    background-image: url("background.jpg");
+}
+
+.header{
+    position: relative;
+    top:5px;
+}
+h2{
+    color:black;
+    font-family:monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px grey;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    left:37%;
+    width:400px;
+}
+
+#container{
+   
+    width: 500px;
+    height:500px;
+    background-color:white;
+    position: relative;
+    top : 70px;
+    left: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons{
+    position: relative;
+    float:right;
+    top:15px;
+    left:-34%;
+}
+
+.btn{
+    background-color: rgb(243, 107, 182);
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 5px;
+    color:black;
+    font-size: 16x;
+   
+
+}
+
+.btn:hover{
+    background-color: lightyellow;
+    box-shadow: 0 0 20px black;
+}
